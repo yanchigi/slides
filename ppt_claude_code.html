@@ -30,7 +30,7 @@
         .slide {
             width: 95%;
             max-width: 1400px;
-            height: 70vh;
+            height: 78vh;
             background: white;
             border-radius: 20px;
             box-shadow: 0 25px 50px rgba(0,0,0,0.2);
@@ -157,7 +157,7 @@
         
         .slide-counter {
             position: fixed;
-            top: 30px;
+            bottom: 30px;
             right: 30px;
             background: white;
             padding: 10px 20px;
@@ -166,6 +166,7 @@
             color: #667eea;
             font-weight: 600;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            z-index: 1000;
         }
         
         .emoji {
@@ -248,7 +249,7 @@
             <h2>Claude Code란? <span class="emoji">🤖</span></h2>
             <div style="margin-top: 40px;">
                 <h3>정의</h3>
-                <p><span class="highlight">Claude Code</span>는 Anthropic에서 개발한 <strong>명령줄 기반 AI 코딩 어시스턴트</strong>입니다.</p>
+                <p><span class="highlight">Claude Code</span>는 Anthropic에서 개발한 <strong>명령줄 기반 AI 코딩 어시스턴트, Command Line Interface (CLI), </strong>입니다.</p>
                 
                 <h3>핵심 특징</h3>
                 <ul>
@@ -259,8 +260,16 @@
                 </ul>
                 
                 <div class="demo-terminal">
-                    claude-code "버그를 찾아서 수정해줘"
+                    > "버그를 찾아서 수정해줘"
                 </div>
+
+                <h3>유용한 보조도구</h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>GitHub</li>
+                </ul>
+
+
             </div>
         </div>
         
